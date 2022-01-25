@@ -1,0 +1,32 @@
+{
+  "name": "code-exercise",
+  "version": "1.0.0",
+  "description": "This is a shopping cart coding exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "canned -p 5000 ./server",
+    "serve": "webpack-dev-server --mode development --open --hot",
+    "dev": "concurrently \"npm run start\" \"npm run serve\"",
+    "build": "webpack --mode production"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/preset-env": "^7.16.4",
+    "babel-loader": "^8.2.3",
+    "bable-loader": "^0.0.1-security",
+    "canned": "^0.3.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^10.0.0",
+    "css-loader": "^6.5.1",
+    "html-loader": "^3.0.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.4.5",
+    "sass": "^1.43.5",
+    "sass-loader": "^12.3.0",
+    "webpack": "^5.64.3",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0"
+  }
+}
